@@ -11,7 +11,12 @@ package musicalinstrumentapp;
  */
 public class Instrument
 {
-    protected String modelName = "Musical Instrument";
+    protected String modelName;
+
+    public Instrument()
+    {
+        this.modelName = "Musical Instrument";
+    }
     
     protected void play()
     {

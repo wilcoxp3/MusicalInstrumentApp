@@ -3,6 +3,8 @@
  * Professor: Tedd Sperling
  * Course: Introduction to JAVA - (22150)
  * Student: Paul Wilcox
+ * This program creates two Instrument objects and calls all the methods from 
+ * each subclass.
 */
 package musicalinstrumentapp;
 
