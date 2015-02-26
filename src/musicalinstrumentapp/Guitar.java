@@ -13,8 +13,15 @@ public class Guitar extends Instrument
 {
     public String modelName;
     
+    @Override
     protected void play()
     {
         System.out.println(modelName + ": Strum, strum, pluck, pluck...");
+    }
+    
+    @Override
+    protected void lift()
+    {
+        System.out.println(modelName + ": You comfortable pick up the instrument.");
     }
 }
