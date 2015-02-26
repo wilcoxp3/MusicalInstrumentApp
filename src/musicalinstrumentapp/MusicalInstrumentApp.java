@@ -14,3 +14,4 @@ public class MusicalInstrumentApp
         Piano yamahaPiano = new Piano();
         yamahaPiano.play();
     }
+}

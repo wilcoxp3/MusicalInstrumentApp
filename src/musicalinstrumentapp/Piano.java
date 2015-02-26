@@ -16,4 +16,10 @@ public class Piano extends Instrument
     {
         System.out.println(modelName + ": Plink, plink, plink...");
     }
+    
+    @Override
+    protected void lift()
+    {
+        System.out.println(modelName + ": This instrument is much too heavy. Better hire some movers.");
+    }
 }
