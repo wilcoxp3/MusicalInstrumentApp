@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package musicalinstrumentapp;
 
 /**
  *
  * @author Paul
+ * The piano class is a subclass of Instrument. It contains methods play() and
+ * lift() in altered overridden versions. It also contains the additional
+ * methods pressSustainPedal() and glissando(), actions unique to the piano.
  */
 public class Piano extends Instrument
 {
@@ -30,6 +29,6 @@ public class Piano extends Instrument
     
     protected void glissando()
     {
-        System.out.println(modelName + ": Chooololololol! Nice glissando, you're a regular Elton John.");
+        System.out.println(modelName + ": Chuuuululululu! Nice glissando, you're a regular Elton John.");
     }
 }

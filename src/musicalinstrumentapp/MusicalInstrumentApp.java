@@ -3,8 +3,9 @@
  * Professor: Tedd Sperling
  * Course: Introduction to JAVA - (22150)
  * Student: Paul Wilcox
- * This program creates two Instrument objects and calls all the methods from 
- * each subclass.
+ * This program creates a Piano object and a Guitar object, assigns each a
+ * modelName using the Instrument class's setModelName() method, and calls all
+ * 4 methods for each object.
 */
 package musicalinstrumentapp;
 

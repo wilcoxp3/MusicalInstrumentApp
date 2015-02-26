@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package musicalinstrumentapp;
 
 /**
  *
  * @author Paul
+ * The guitar class is a subclass of Instrument. It contains methods play() and
+ * lift() in altered overridden versions. It also contains the additional
+ * methods attachCapo() and slide(), actions unique to the guitar.
  */
 public class Guitar extends Instrument
 {    

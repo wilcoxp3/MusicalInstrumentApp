@@ -1,23 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package musicalinstrumentapp;
 
 /**
  *
  * @author Paul
+ * The Instrument class serves as a superclass for more specific musical
+ * instrument classes. It contains one field, modelName, to receive the specific
+ * model of instrument. It has three methods: play() for playing the instrument,
+ * lift() for lifting the instrument, and setModelName(String modelName) for
+ * naming the model of instrument.
  */
 public class Instrument
 {
     protected String modelName;
-
-    public Instrument()
-    {
-        this.modelName = "Musical Instrument";
-    }
-    
+ 
     protected void play()
     {
         System.out.println(modelName + ": That's a pleasant melody, but what instrument is that?");
