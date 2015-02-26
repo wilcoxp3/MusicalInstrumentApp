@@ -10,6 +10,7 @@ public class MusicalInstrumentApp
 {
     public static void main(String[] args)
     {
-        
+        System.out.println("-----Piano------");
+        Piano yamahaPiano = new Piano();
+        yamahaPiano.play();
     }
-}

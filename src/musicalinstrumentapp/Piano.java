@@ -11,5 +11,9 @@ package musicalinstrumentapp;
  */
 public class Piano extends Instrument
 {
-    
+    @Override
+    protected void play()
+    {
+        System.out.println(modelName + ": Plink, plink, plink...");
+    }
 }
