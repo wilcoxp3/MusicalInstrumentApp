@@ -10,6 +10,6 @@ public class MusicalInstrumentApp
 {
     public static void main(String[] args)
     {
-        //here are some changes right here
+        //here are some changes
     }
 }
