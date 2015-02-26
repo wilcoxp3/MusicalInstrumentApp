@@ -11,5 +11,10 @@ package musicalinstrumentapp;
  */
 public class Guitar extends Instrument
 {
+    public String modelName;
     
+    protected void play()
+    {
+        System.out.println(modelName + ": Strum, strum, pluck, pluck...");
+    }
 }
