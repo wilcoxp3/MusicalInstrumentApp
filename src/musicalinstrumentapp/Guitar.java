@@ -10,9 +10,7 @@ package musicalinstrumentapp;
  * @author Paul
  */
 public class Guitar extends Instrument
-{
-    public String modelName;
-    
+{    
     @Override
     protected void play()
     {
@@ -22,6 +20,16 @@ public class Guitar extends Instrument
     @Override
     protected void lift()
     {
-        System.out.println(modelName + ": You comfortable pick up the instrument.");
+        System.out.println(modelName + ": You comfortably pick up the instrument.");
+    }
+    
+    protected void attachCapo()
+    {
+        System.out.println(modelName + ": You can now strum open chords in a higher key.");
+    }
+    
+    protected void slide()
+    {
+        System.out.println(modelName + ": Bwaaannnng! Nice slide, very rock n' roll.");
     }
 }

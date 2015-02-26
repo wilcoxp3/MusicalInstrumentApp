@@ -27,4 +27,9 @@ public class Piano extends Instrument
     {
         System.out.println(modelName + ": The sound rings throughout the room with the sustain pedal engaged.");
     }
+    
+    protected void glissando()
+    {
+        System.out.println(modelName + ": Chooololololol! Nice glissando, you're a regular Elton John.");
+    }
 }
