@@ -22,4 +22,9 @@ public class Piano extends Instrument
     {
         System.out.println(modelName + ": This instrument is much too heavy. Better hire some movers.");
     }
+    
+    protected void pushSustainPedal
+    {
+        System.out.println(modelName + ": The sound rings throughout the room with the sustain pedal engaged.");
+    }
 }
